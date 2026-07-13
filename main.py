@@ -33,7 +33,8 @@ class MobileMonitor(BoxLayout):
         
         # Header
         self.add_widget(Label(
-            text="🔬 PubMed Monitor",
+            text="Pubmed Monitor",
+            #text="🔬 PubMed Monitor",
             #font_name=['Roboto', 'NotoColorEmoji'],
             font_size="18dp", 
             size_hint_y=None, 
