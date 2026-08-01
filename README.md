@@ -1,11 +1,11 @@
 ***THIS IS A PERSONAL PROJECT.***
 Happy Coding 👨‍💻🖥️
-
-## If you are planning on forking this repo, please grab the latest version via the releases.
+<br>
+<br>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Kivy-4A90E2?style=for-the-badge&logo=kivy&logoColor=white" alt="Kivy">
+  <img src="https://img.shields.io/badge/Python-3.13.14-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Kivy%3D2.3.4-4A90E2?style=for-the-badge&logo=kivy&logoColor=white" alt="Kivy">
   <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android">
   <img src="https://img.shields.io/badge/PubMed-00AEEF?style=for-the-badge&logo=pubmed&logoColor=white" alt="PubMed">
   <img src="https://img.shields.io/github/license/KeylockerLabs/pubmedmonitor?label=MIT%20License&color=brightgreen" alt="MIT License">
@@ -20,7 +20,7 @@ A mobile Android app built with **Kivy** that searches recent PubMed publication
 - **PubMed Search**: Search by keywords (e.g., "leukemia", "hematology", "cancer").
 - **Metadata Collection**: Pulls titles, authors, abstracts, DOIs, and PMC IDs.
 - **PDF Download**: Automatically downloads available open-access PDFs and exports them to public storage.
-- **Persistent CSV Database**: Tracks downloaded papers in `collection.csv` to avoid duplicates.
+- **Persistent CSV Database**: Tracks downloaded papers in `collection.csv` to avoid duplicates. [Currently in version 1.0 and 1.1.0 you are not able to see the collection.csv file] ⬅️ __Currently working to fixing it__
 - **User-Friendly Interface**: Simple mobile UI with logging and progress feedback.
 - **Android-Optimized**: Uses `androidstorage4kivy` for safe access to shared storage (Downloads folder).
 
@@ -53,8 +53,8 @@ Edit `pubmed_monitor.py` for defaults:
 ## Requirements
 
 ### For Development / Running on Desktop
-- Python 3.8+
-- Kivy (`pip install kivy`)
+- Python 3.13.14
+- Kivy 2.3.4 (`pip install kivy==2.3.4`)
 - Requests, etc. (see `pubmed_monitor.py` imports)
 - For full Android features, run on an Android device/emulator.
 
