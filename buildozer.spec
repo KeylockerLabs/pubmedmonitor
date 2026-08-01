@@ -15,7 +15,7 @@ package.name = pubmedmonitor
 package.domain = org.test
 
 # (str) Source code where the main.py live
-source.dir = ~/Downloads/pubmed-monitor
+source.dir = /home/pluto/Documents/pubmedmonitor-main
 
 # (str) Application main file (this is usually main.py)
 source.main = main.py
@@ -52,10 +52,10 @@ requirements = python3, kivy, requests, urllib3, openssl, androidstorage4kivy
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-# presplash.filename = /home/jack/Downloads/pubmed-monitor/images/pubmedmonitor.png
+presplash.filename = /home/pluto/Documents/pubmedmonitor-main/images/pubmedmonitor.png
 
 # (str) Icon of the application
-icon.filename = /home/jack/Downloads/pubmed-monitor/images/play_store_icon.png
+icon.filename = /home/pluto/Documents/pubmedmonitor-main/images/pubmedmonitor.png
 
 # (list) Supported orientations
 # Valid options are: landscape, portrait, portrait-reverse, landscape-reverse, or all
@@ -92,7 +92,7 @@ fullscreen = 0
 # red, blue, green, black, white, gray, cyan, magenta, yellow, lightgray,
 # darkgray, grey, lightgrey, darkgrey, aqua, fuchsia, lime, maroon, navy,
 # olive, purple, silver, teal.
-android.presplash_color = darkgrey
+android.presplash_color = lime
 
 # (string) Presplash animation using Lottie format.
 # see https://lottiefiles.com/ for examples and https://airbnb.design/lottie/
@@ -127,10 +127,10 @@ android.ndk = 29
 android.ndk_api = 30
 
 # (str) Android NDK directory (if empty, it will be automatically downloaded.)
-android.ndk_path =
+# android.ndk_path =
 
 # (str) Android SDK directory (if empty, it will be automatically downloaded.)
-android.sdk_path = /home/jack/.buildozer/android/platform/android-sdk
+# android.sdk_path = 
 
 # (str) ANT directory (if empty, it will be automatically downloaded.)
 #android.ant_path =
