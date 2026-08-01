@@ -5,7 +5,7 @@ Happy Coding 👨‍💻🖥️
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.13.14-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Kivy%3D2.3.4-4A90E2?style=for-the-badge&logo=kivy&logoColor=white" alt="Kivy">
+  <img src="https://img.shields.io/badge/Kivy%3D2.3.1-4A90E2?style=for-the-badge&logo=kivy&logoColor=white" alt="Kivy">
   <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android">
   <img src="https://img.shields.io/badge/PubMed-00AEEF?style=for-the-badge&logo=pubmed&logoColor=white" alt="PubMed">
   <img src="https://img.shields.io/github/license/KeylockerLabs/pubmedmonitor?label=MIT%20License&color=brightgreen" alt="MIT License">
