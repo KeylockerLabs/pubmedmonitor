@@ -20,7 +20,7 @@ A mobile Android app built with **Kivy** that searches recent PubMed publication
 - **PubMed Search**: Search by keywords (e.g., "leukemia", "hematology", "cancer").
 - **Metadata Collection**: Pulls titles, authors, abstracts, DOIs, and PMC IDs.
 - **PDF Download**: Automatically downloads available open-access PDFs and exports them to public storage.
-- **Persistent CSV Database**: Tracks downloaded papers in `collection.csv` to avoid duplicates. [Currently in version 1.0 and 1.1.0 you are not able to see the collection.csv file] ⬅️ __Currently working to fixing it__
+- **Persistent CSV Database**: Tracks downloaded papers in `collection.csv` to avoid duplicates. [Currently in version 1.0 you are not able to see the collection.csv file] ⬅️ __Currently working to fixing it__
 - **User-Friendly Interface**: Simple mobile UI with logging and progress feedback.
 - **Android-Optimized**: Uses `androidstorage4kivy` for safe access to shared storage (Downloads folder).
 
